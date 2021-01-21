@@ -1,25 +1,40 @@
 <!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <title>Google</title>
 <header>
-    <a href="google.com" id="about">About  </a>
-    <a href="google.com" id="store">Store  </a>
-    <a href="google.com" id="gmail">Gmail  </a>
-    <a href="google.com" id="images">Images </a>
-    <a href="google.com" id="nav">PH Nav    </a>
+    <ul>
+    <li><a href="google.com" id="about">About</a></li>
+    <li><a href="google.com" id="store">Store</a></li>
     <button id="sign-in">Sign In</button>
+    <li><a href="google.com"><img  id="nav" src="dot square.jpeg" 
+        style="width: 50px; height:50px; padding:0;"
+        alt="Google Apps"></a></li>
+    <li><a href="google.com" id="images">Images</a></li>
+    <li><a href="google.com" id="gmail">Gmail</a></li>
+</ul>
 </header>
-<div>
-    <img src="googlelogo.png" id="logo"/>
+<center>
+<div id="search-div">
+    <img src="googlelogo.png" id="logo"/><br><br>
+    <input type="text" id="search-area"
+    placeholder="search"></textarea><br><br>
+    <button id="search" class="search-buttons">Google Search</button>
+    <button id="lucky" class="search-buttons">I'm Feeling Lucky</button>
 </div>
-<div>
-    <textarea id="search-area"
-    placeholder="search"></textarea>
-</div>
-<div>
-    <button id="search">Google Search</button>
-    <button id="lucky">I'm Feeling Lucky</button>
-</div>
+</center>
 <footer>
-    TODO:add footer links to bottom of page
+    <div id="footer-div">
+    <ul>
+        <li><a href="google.com" id="advertising">Advertising</a></li>
+        <li><a href="google.com" id="business">Business</a></li>
+        <li><a href="google.com" id="how-works">How Search Works</a></li>
+        <li><a href="google.com" id="carbon-neutral">Carbon neutral since 2007</a></li>
+        <li><a href="google.com" id="privacy">Advertising</a></li>
+        <li><a href="google.com" id="terms">Terms</a></li>
+        <li><a href="google.com" id="settings">Settings</a></li>
+    </ul>
+    </div>
 </footer>
     </html>

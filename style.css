@@ -1,0 +1,56 @@
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+li{
+    display:inline;
+    padding: 10px;
+}
+
+#sign-in,#nav,#images,#gmail{
+    margin-left: 10px;
+    margin-right:10px;
+    float:right;
+}
+center{
+    padding-top:200px;
+}
+footer{
+    position:fixed;
+    bottom:0;
+}
+#footer-div{
+    background-color:lightgrey;
+}
+a:link{
+    color:rgb(43, 39, 39);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(43, 39, 39);
+    text-decoration: underline;
+}
+#sign-in{
+    background-color:#4387fd;
+    font-size: 13px;
+    color:white;
+    border-width: 0px;
+    font-weight:bold;
+    height:30px;
+    width:67px;
+    border:1px solid #4285f4;
+    border-radius: 2px;
+}
+.search-buttons{
+    background-color:#f8f9fa;
+    font-size: 13px;
+    color:rgb(37, 35, 35);
+    border-width: 0px;
+    height:30px;
+    border:1px solid #ffffff;
+    border-radius: 2px;
+}
+.search-buttons:hover{
+    border:1px solid #afafaf;
+}
